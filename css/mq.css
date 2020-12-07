@@ -1,0 +1,268 @@
+
+
+/* LAPTOP HD ====================================*/
+@media (max-width: 1366px) {
+
+}
+/* END LAPTOP HD */
+
+/* TABLET LANDSCAPE ==========================*/
+@media (max-width: 1024px) {
+
+  /* NAVBAR */
+  .content-menu-navbar .search-group {
+    /* background-color: yellow; */
+    display: none;
+  }
+
+  /* END NAVBAR */
+
+  /* MAIN */
+  /* SIDEBAR */
+  .sidebar {
+    display: none;
+  }
+
+  /* END SIDEBAR */
+
+
+ /* END MAIN */
+
+}
+/* END TABLET LANDSCAPE */
+
+/* BIG CELL LANDSCAPE ==========================*/
+@media (max-width: 823px) and (min-width: 770px) {
+
+  /* NAVBAR */
+  .navbar-bee-market {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  .content-menu-navbar .search-group {
+    /* background-color: yellow; */
+    display: none;
+  }
+
+  .navbar-brand img {
+    height: 1.8rem;
+    vertical-align: top;
+  }
+
+  .content-menu-navbar .nav-link i {
+    /* color: var(--blue); */
+    font-size: 1.5rem;
+  }
+  /* END NAVBAR */
+
+  /* CONTENT-COMPRA */
+
+  .content-compra {
+    height: auto;
+    overflow-y: auto;
+  }
+
+  /* END CONTENT-COMPRA */
+
+  /* FOOTER */
+
+  footer {
+    height: 25vh;
+    padding: 1.5rem 1rem !important;
+  }
+
+  .wrap-footer {
+    flex-direction: column;
+  }
+
+  footer .footer-brand-item {
+    /* background-color: palegreen; */
+  padding-top: 1rem;
+
+  }
+  /* END FOOTER */
+}
+/* END BIG CELL LANDSCAPE */
+
+/* TABLET PORTRAIT ===========================*/
+@media (max-width: 768px) {
+
+  /* NAVBAR */
+
+  .content-menu-navbar .search-group {
+    /* background-color: yellow; */
+    display: none;
+  }
+
+  .navbar-brand img {
+    height: 1.8rem;
+    vertical-align: top;
+  }
+
+  /* END NAVBAR */
+
+  /* SIDEBAR */
+
+  /* END SIDEBAR */
+
+  /* CONTENT-COMPRA */
+
+  .content-compra {
+    height: 90vh;
+  }
+
+  /* END CONTENT COMPRA */
+
+  /* FOOTER */
+
+  footer {
+    height: 10vh;
+    padding: 1.5rem 2rem;
+  }
+
+  .wrap-footer {
+    flex-direction: column;
+  }
+
+  footer .footer-brand-item {
+  /* background-color: palegreen; */
+  padding-top: 1rem;
+  }
+  /* END FOOTER */
+}
+/* END TABLET PORTRAIT */
+
+/* CELL LANDSCAPE */
+@media (max-width: 736px) {
+
+  /* NAVBAR */
+  .navbar-bee-market {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  .content-menu-navbar .nav-link i {
+    /* color: var(--blue); */
+    font-size: 1.5rem;
+  }
+  /* END NAVBAR */
+
+  /* CONTENT-COMPRA */
+
+  .content-compra {
+    height: auto;
+    overflow-y: auto;
+  }
+
+  /* END CONTENT-COMPRA */
+
+  /* FOOTER */
+  footer {
+    height: auto;
+  }
+  /* FIN FOOTER */
+
+}
+/* END CELL LANDSCAPE */
+
+
+/* SM CELL LANDSCAPE ==========================*/
+@media (max-width: 568px) {
+
+  /* CONTENT-COMPRA */
+
+  .content-compra {
+    height: auto;
+    overflow-y: auto;
+  }
+
+  /* END CONTENT-COMPRA */
+
+  /* FOOTER */
+
+  footer {
+    height: auto;
+    padding: 1.5rem 1rem;
+  }
+
+  footer .footer-item {
+    /* background-color: yellow; */
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  footer .footer-item a {
+    /* background-color: palegreen; */
+    margin-bottom: 1.5rem;
+  }
+
+  /* END FOOTER */
+}
+/* END SM CELL LANDSCAPE */
+
+/* CELL PORTRAIT =======================*/
+@media (max-width: 480px) {
+
+  /* NAVBAR */
+
+  .navbar-brand img {
+    height: 1.8rem;
+    vertical-align: top;
+  }
+
+  /* END NAVBAR */
+
+  /* CONTENT-COMPRA */
+
+  .content-compra {
+    height: auto;
+    overflow-y: auto;
+  }
+
+  /* END CONTENT-COMPRA */
+
+  /* FOOTER */
+
+  footer {
+    height: auto;
+    padding: 1.5rem 1rem;
+  }
+
+  footer .footer-item {
+    /* background-color: yellow; */
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  footer .footer-item a {
+    /* background-color: palegreen; */
+    margin-bottom: 1.5rem;
+  }
+
+  /* END FOOTER */
+
+}
+/* END CELL PORTRAIT */
+
+
+/* SM CELL PORTRAIT ================== */
+  @media (max-width: 360px) {
+    /* NAVBAR */
+
+    .navbar-brand img {
+      height: 1.5rem;
+      vertical-align: top;
+    }
+
+    .content-menu-navbar .nav-link i {
+      /* color: var(--blue); */
+      font-size: 1.2rem;
+    }
+
+    /* END NAVBAR */
+  }
