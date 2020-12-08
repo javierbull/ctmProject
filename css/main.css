@@ -11,8 +11,9 @@
   --blue: #004CC3;
   --lightblue: #E6EBF3;
   --yellow: #FFCE00;
-  --red; #D21413;
+  --red: #D21413;
   --transparent: transparent;
+  --green: #23C96F;
 }
 
 *{
@@ -191,6 +192,13 @@ input::-webkit-inner-spin-button {
 .breadcrumb {
   background-color: transparent;
   height: 45px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.breadcrumb a {
+  display: flex;
+  align-items: center;
 }
 
 .container-qr {
@@ -213,4 +221,58 @@ input::-webkit-inner-spin-button {
   color: var(--darkgray);
   font-weight: 500;
 }
+
+.text-success {
+  color: var(--green);
+  font-size: 18px;
+}
+
+.list-group {
+  margin-bottom: 2rem;
+  font-weight: 500;
+}
+
+.list-group-jugadores {
+  width: 100%;
+}
+
+.list-group-jugadores .list-group-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-group-jugadores .list-group-item span {
+  color: var(--darkgray);
+}
 /* FIN GENERAR QR */
+
+/* CTM */
+.wrap-img-fluid {
+  background-color: lightgreen;
+  min-height: calc(100vh - 120px);
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrap-img-fluid img {
+  height: 50vh;
+}
+
+.sub-title {
+  font-size: 24px;
+}
+
+.temporizador {
+  font-size: 72px;
+  font-weight: 600;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* FIN CTM */
