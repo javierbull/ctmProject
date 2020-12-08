@@ -199,6 +199,10 @@ input::-webkit-inner-spin-button {
   margin: 2rem 0;
 }
 
+.qr-content p {
+  padding: 1rem;
+}
+
 .qr-content {
   background-color: var(--gray);
   height: 100%;
@@ -206,7 +210,6 @@ input::-webkit-inner-spin-button {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
   color: var(--darkgray);
   font-weight: 500;
 }
