@@ -14,6 +14,7 @@
   --red: #D21413;
   --transparent: transparent;
   --green: #23C96F;
+  --textRed: #F55E5E;
 }
 
 *{
@@ -244,6 +245,12 @@ input::-webkit-inner-spin-button {
 .list-group-jugadores .list-group-item span {
   color: var(--darkgray);
 }
+
+.list-group-jugadores label {
+  color: transparent;
+  cursor: pointer;
+}
+
 /* FIN GENERAR QR */
 
 /* CTM */
@@ -268,6 +275,7 @@ input::-webkit-inner-spin-button {
 .temporizador {
   font-size: 72px;
   font-weight: 600;
+  color: var(--textRed);
 }
 
 .flex-center {
@@ -276,3 +284,62 @@ input::-webkit-inner-spin-button {
   align-items: center;
 }
 /* FIN CTM */
+
+/* PUNTUACION */
+.bloque-puntuacion {
+  background-color: yellow;
+  padding: 0;
+}
+
+.puntuacion-item {
+  display: flex;
+  height: 3rem;
+  margin-bottom: 1rem;
+}
+
+.nameBar {
+  background-color: lavender;
+  display: flex;
+  align-items: center;
+  width: 20%;
+}
+
+.bar {
+  background-color: var(--pink);
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  padding: 0;
+  margin: 0 1rem;
+  text-align: center;
+}
+
+.img-bar img {
+  height: 100%;
+
+}
+
+
+.b-60 {
+  width: 50%;
+}
+
+.b-50 {
+  width: 50%;
+}
+
+.b-40 {
+  width: 40%;
+}
+
+.b-30 {
+  width: 30%;
+}
+
+.b-20 {
+  width: 20%;
+}
+
+/* FIN PUNTUACION */
