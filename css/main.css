@@ -35,7 +35,20 @@ body {
 
 .btn-rounded {
   border-radius: 3rem;
-  padding: .75rem 2rem;
+  padding: 0 2rem;
+  height: 48px;
+}
+
+.input-rounded {
+  border-radius: 10px;
+  padding: 0 2rem;
+  height: 48px;
+}
+
+.link-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* FIN GENERALES */
@@ -48,14 +61,15 @@ body {
   height: 60px;
 }
 .wrap-img {
-  /* background-color: pink; */
+  background-color: pink;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 3rem 2rem 0 2rem;
 }
 
 .description-img {
-  /* background-color: lavender; */
+  background-color: lavender;
   min-height: calc(100vh - 60px);
   padding: 3rem 2rem;
   display: flex;
@@ -73,3 +87,33 @@ body {
   margin-bottom: 2rem;
 }
 /* FIN HOME */
+
+/* NUEVA PARTIDA */
+.wrap-form {
+  background-color: salmon;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap-form form {
+  max-width: 400px;
+}
+
+.form-nuevaPartida {
+  background-color: yellow;
+}
+
+.wrap-form-bottom {
+  background-color: lightgreen;
+  margin-top: 6rem;
+}
+
+.wrap-form-bottom p {
+  margin-bottom: .5rem;
+}
+
+
+/* FIN NUEVA PARTIDA */
