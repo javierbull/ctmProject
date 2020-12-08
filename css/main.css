@@ -65,13 +65,17 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 3rem 2rem 0 2rem;
+  padding: 0 2rem;
+}
+
+.wrap-img2 img {
+  max-height: 80%;
 }
 
 .description-img {
   background-color: lavender;
-  min-height: calc(100vh - 60px);
-  padding: 3rem 2rem;
+  min-height: calc(100vh - 120px);
+  padding: 2.5rem 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -113,11 +117,13 @@ body {
 
 .form-nuevaPartida {
   background-color: yellow;
+  width: 100%;
 }
 
 .wrap-form-bottom {
   background-color: lightgreen;
   margin-top: 6rem;
+  width: 100%;
 }
 
 .wrap-form-bottom p {
@@ -140,8 +146,8 @@ body {
 /* GENERAR QR */
 .container-wrap-form {
   background-color: peru;
-  min-height: calc(100vh - 60px);
-  padding: 3rem 2rem;
+  min-height: calc(100vh - 120px);
+  padding: 2.5rem 2rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -182,6 +188,26 @@ input::-webkit-inner-spin-button {
     margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
 }
 
+.breadcrumb {
+  background-color: transparent;
+  height: 45px;
+}
 
+.container-qr {
+  width: 180px;
+  height: 180px;
+  margin: 2rem 0;
+}
 
+.qr-content {
+  background-color: var(--gray);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  color: var(--darkgray);
+  font-weight: 500;
+}
 /* FIN GENERAR QR */

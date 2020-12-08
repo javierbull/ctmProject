@@ -41,6 +41,14 @@
     justify-content: center;
   }
 
+  .container-wrap-form {
+    min-height: auto;
+  }
+
+  .wrap-img2 {
+    display: none;
+  }
+
 }
 /* END TABLET PORTRAIT */
 
