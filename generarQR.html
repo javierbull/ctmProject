@@ -2,7 +2,7 @@
 <html lang="es">
 
 <head>
-	<title>Nueva partida - CTM</title>
+	<title>Generar QR - CTM</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!--===============================================================================================-->
@@ -58,10 +58,11 @@
 
 	<main>
 		<div class="container">
+
 			<nav aria-label="breadcrumb">
 				<ol class="breadcrumb">
 					<li class="breadcrumb-item">
-						<a href="index.html">
+						<a href="nuevaPartida.html">
 							<span class="material-icons">
 								arrow_back_ios
 							</span>
@@ -71,27 +72,30 @@
 				</ol>
 			</nav>
 			<div class="row">
-				<div class="col-lg-6 wrap-img">
-					<img src="img/ilustraciones/palomas.jpg" alt="" class="img-fluid">
+				<div class="col-lg-6 wrap-img2">
+					<img src="img/ilustraciones/cartas.jpg" alt="Cartas del juego CTM" class="img-fluid">
 				</div>
-				<div class="col-lg-6 description-img">
-					<div class="wrap-form col-lg-8">
+				<div class="col-lg-6 container-wrap-form">
+					<div class="wrap-form">
 						<form class="form-nuevaPartida">
-							<h1 class="title">Hola C.T.M</h1>
-							<div class="form-group">
-								<input type="text" class="form-control input-rounded" aria-describedby="aliasHelp" placeholder="Ingresa tu alias">
-								<!-- <small id="aliasHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+							<label class="label">Gana el que suma</label>
+							<div class="control-cantidad">
+								<button type="button" name="button" class="dec qtybutton btn btn-primary">
+									<i class="material-icons">
+										remove
+									</i>
+								</button>
+								<input type="number" value="1" name="qtybutton" class="plus-minus-box">
+								<button type="button" name="button" class="inc qtybutton btn btn-primary">+</button>
 							</div>
 
-							<a href="generarQR.html" class="btn btn-primary btn-rounded btn-block link-btn">
-								Crear una sala nueva
-							</a>
+							<button type="submit" class="btn btn-primary btn-rounded btn-block">Generar QR  </button>
 						</form>
 
 						<div class="wrap-form-bottom">
 							<p>¿Ya la crearon?</p>
 							<a href="escanearQR.html" class="btn btn-outline-primary btn-rounded link-btn">
-								Escanear el código QR
+								Generar QR
 							</a>
 						</div>
 					</div>

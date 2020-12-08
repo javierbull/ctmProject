@@ -60,7 +60,7 @@ body {
 .navbar {
   height: 60px;
 }
-.wrap-img {
+.wrap-img, .wrap-img2 {
   background-color: pink;
   display: flex;
   justify-content: center;
@@ -75,6 +75,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .big-title {
@@ -86,6 +87,11 @@ body {
 .wrap-description p {
   margin-bottom: 2rem;
 }
+
+.wrap-description-bottom {
+  display: flex;
+  justify-content: flex-end;
+}
 /* FIN HOME */
 
 /* NUEVA PARTIDA */
@@ -96,10 +102,13 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 300px;
 }
 
-.wrap-form form {
-  max-width: 400px;
+
+.wrap-form form .label {
+  font-size: 18px;
+  font-weight: 700;
 }
 
 .form-nuevaPartida {
@@ -115,5 +124,64 @@ body {
   margin-bottom: .5rem;
 }
 
+.breadcrumb-item a {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
 
 /* FIN NUEVA PARTIDA */
+
+/* GENERAR QR */
+.container-wrap-form {
+  background-color: peru;
+  min-height: calc(100vh - 60px);
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.control-cantidad {
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  margin-bottom: .5rem;
+}
+
+.control-cantidad .btn {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.control-cantidad .plus-minus-box {
+  background-color: #fff;
+  width: 5rem;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+
+
+/* FIN GENERAR QR */
