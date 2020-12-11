@@ -255,7 +255,7 @@ input::-webkit-inner-spin-button {
   color: var(--primary-color);
 }
 
-.breadcrumb .invitarGente {
+.breadcrumb .triggerModal {
   cursor: pointer;
 }
 
@@ -402,6 +402,11 @@ input::-webkit-inner-spin-button {
 /* FIN PUNTUACION */
 
 /* MODAL */
+.modal-content {
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
 .modal-header {
   background-color: var(--primary-color);
   color: #fff;
@@ -420,5 +425,19 @@ input::-webkit-inner-spin-button {
   display: flex;
   justify-content: center;
   padding-top: 2rem;
+}
+
+.modal-footer {
+
+}
+
+.wrap-btns-modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem 0;
+}
+.wrap-btns-modal .btn {
+  margin-top: 1rem;
 }
 /* FIN MODAL */
