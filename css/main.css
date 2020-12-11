@@ -3,6 +3,8 @@
 /* ============================================= */
 
 :root {
+  --primary-color: #6A2C70;
+  --primary-color-hover: #C060A1;
   --black: #000;
   --gray: #d1cebd;
   --darkgray: #999;
@@ -53,6 +55,53 @@ body {
   justify-content: center;
 }
 
+/* COLORES BOTONES */
+.btn-primary {
+  background-color: var(--primary-color);
+  border: solid 1px var(--primary-color);
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-color-hover);
+  border: var(--primary-color-hover);
+}
+
+.btn-primary:focus, .btn-primary.focus {
+  color: #fff;
+  background-color: var(--primary-color-hover);
+  border-color: var(--primary-color-hover);
+  box-shadow: 0 0 0 0.2rem rgba(192, 96, 161, 0.5);
+}
+
+.btn-primary.disabled, .btn-primary:disabled, .btn-secondary.disabled, .btn-secondary:disabled {
+  color: #fff;
+  background-color: var(--darkgray);
+  border-color: var(--darkgray);
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: var(--primary-color-hover);
+  border-color: var(--primary-color-hover);
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(192, 96, 161, 0.5);
+}
+
+.btn-outline-primary {
+  border: solid 1px var(--primary-color);
+  color: var(--primary-color);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--primary-color-hover);
+  border:  var(--primary-color-hover);
+}
+/* FIN COLORES BOTONES */
+
 /* FIN GENERALES */
 
 
@@ -63,7 +112,7 @@ body {
   height: 60px;
 }
 .wrap-img, .wrap-img2 {
-  background-color: pink;
+  /* background-color: pink; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -75,13 +124,14 @@ body {
 }
 
 .description-img {
-  background-color: lavender;
+  /* background-color: lavender; */
   min-height: calc(100vh - 120px);
   padding: 2.5rem 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-left: 1px solid var(--gray);
 }
 
 .big-title {
@@ -102,7 +152,7 @@ body {
 
 /* NUEVA PARTIDA */
 .wrap-form {
-  background-color: salmon;
+  /* background-color: salmon; */
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -118,12 +168,12 @@ body {
 }
 
 .form-nuevaPartida {
-  background-color: yellow;
+  /* background-color: yellow; */
   width: 100%;
 }
 
 .wrap-form-bottom {
-  background-color: lightgreen;
+  /* background-color: lightgreen; */
   margin-top: 6rem;
   width: 100%;
 }
@@ -135,6 +185,7 @@ body {
 .breadcrumb-item a {
   display: flex;
   align-items: center;
+  color: var(--primary-color);
 }
 
 .title {
@@ -147,17 +198,18 @@ body {
 
 /* GENERAR QR */
 .container-wrap-form {
-  background-color: peru;
+  /* background-color: peru; */
   min-height: calc(100vh - 120px);
   padding: 2.5rem 2rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  border-left: 1px solid var(--gray);
 }
 
 .control-cantidad {
-  background-color: pink;
+  /* background-color: pink; */
   display: flex;
   justify-content: center;
   margin-bottom: .5rem;
@@ -255,7 +307,7 @@ input::-webkit-inner-spin-button {
 
 /* CTM */
 .wrap-img-fluid {
-  background-color: lightgreen;
+  /* background-color: lightgreen; */
   min-height: calc(100vh - 120px);
   padding: 2rem;
   display: flex;
@@ -287,7 +339,7 @@ input::-webkit-inner-spin-button {
 
 /* PUNTUACION */
 .bloque-puntuacion {
-  background-color: yellow;
+  /* background-color: yellow; */
   padding: 0;
 }
 
