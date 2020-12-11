@@ -33,7 +33,7 @@
   }
 
   .description-img {
-    background-color: lavender;
+    /* background-color: lavender; */
     min-height: auto;
     padding: 3rem 2rem;
     display: flex;
@@ -71,7 +71,20 @@
 /* CELL PORTRAIT =======================*/
 @media (max-width: 480px) {
 
+  .big-title {
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-bottom: 1.5rem;
+  }
 
+  .wrap-description-bottom {
+    display: flex;
+    justify-content: center;
+  }
+
+  .sub-title {
+    font-size: 18px;
+  }
 
 }
 /* END CELL PORTRAIT */
