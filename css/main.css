@@ -420,7 +420,7 @@ input::-webkit-inner-spin-button {
 }
 
 .modal-header {
-  background-color: var(--primary-color);
+  background-color: var(--primary-color-hover);
   color: #fff;
 }
 
