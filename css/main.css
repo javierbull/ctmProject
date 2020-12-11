@@ -98,7 +98,7 @@ body {
 
 .btn-outline-primary:hover {
   background-color: var(--primary-color-hover);
-  border:  var(--primary-color-hover);
+  border: solid 1px  var(--primary-color-hover);
 }
 /* FIN COLORES BOTONES */
 
@@ -252,6 +252,11 @@ input::-webkit-inner-spin-button {
 .breadcrumb a {
   display: flex;
   align-items: center;
+  color: var(--primary-color);
+}
+
+.breadcrumb .invitarGente {
+  cursor: pointer;
 }
 
 .container-qr {
@@ -395,3 +400,25 @@ input::-webkit-inner-spin-button {
 }
 
 /* FIN PUNTUACION */
+
+/* MODAL */
+.modal-header {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.modal-header .close {
+  color: #fff;
+}
+
+.modal-title {
+  font-weight: 700;
+}
+
+.container-qr-modal {
+  /* background-color: yellow; */
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+/* FIN MODAL */

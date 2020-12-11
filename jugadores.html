@@ -61,13 +61,13 @@
 
 			<nav aria-label="breadcrumb">
 				<ol class="breadcrumb">
-					<a href="nuevaPartida.html">
+					<a href="qrgenerado.html">
 						<span class="material-icons">
 							arrow_back_ios
 						</span>
 						Volver
 					</a>
-					<a href="nuevaPartida.html">
+					<a class="invitarGente" data-toggle="modal" data-target="#exampleModal">
 						Invitar gente
 					</a>
 				</ol>
@@ -103,6 +103,31 @@
 	<footer>
 
 	</footer>
+
+	<!-- MODALS -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Invitar gente</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					Escanea el QR para unirte a la partida
+
+					<div class="container-qr-modal">
+						<img src="img/ilustraciones/qr.jpg" alt="código qr" class="img-fluid">
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-outline-primary" data-dismiss="modal">Listo</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- FIN MODALS -->
 
 
 	<!--===============================================================================================-->
