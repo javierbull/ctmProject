@@ -102,6 +102,18 @@ body {
 }
 /* FIN COLORES BOTONES */
 
+/* INPUT RADIO */
+.custom-control-input:checked ~ .custom-control-label::before {
+  color: #fff;
+  border-color: var(--primary-color-hover);
+  background-color: var(--primary-color-hover);
+}
+
+.custom-control-input:focus ~ .custom-control-label::before {
+  box-shadow: 0 0 0 0.2rem #F1D4D4;
+}
+/* FIN INPUR RADIO */
+
 /* FIN GENERALES */
 
 
@@ -316,13 +328,13 @@ input::-webkit-inner-spin-button {
   min-height: calc(100vh - 120px);
   padding: 2rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
 }
 
 .wrap-img-fluid img {
-  height: 50vh;
+  height: 40vh;
 }
 
 .sub-title {
@@ -428,7 +440,7 @@ input::-webkit-inner-spin-button {
 }
 
 .modal-footer {
-
+  border: none;
 }
 
 .wrap-btns-modal {
